@@ -8,7 +8,7 @@ body{
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .Header_container{
     display: flex;
@@ -74,4 +74,34 @@ button{
     font-size: 20px;
     font-family: 'DM Serif Display', serif;
     text-align: center;
+}
+section{
+    width: 80%;
+    height: 500px;
+    float: right;
+    background-color: red;
+}
+aside{
+    width: 20%;
+    height: 500px;
+    background-color: green;
+    float: left;
+}
+.link_session:visited{
+    color: black;
+}
+.link_session:hover{
+    color: #C6C6C6;
+}
+.link_session:active {
+    color: #D2DAED;
+}
+.link_buy:visited{
+    color: black;
+}
+.link_buy:hover{
+    color: #C6C6C6;
+}
+.link_buy:active {
+    color: #D2DAED;
 }
